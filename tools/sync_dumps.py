@@ -123,7 +123,7 @@ def main() -> int:
     args = parser.parse_args()
 
     print("=" * 64)
-    print(" GIMI-Model-Dumps — Validator & GitHub Upload Tool")
+    print(" GIMI-Model-Dumps - Validator & GitHub Upload Tool")
     print("=" * 64)
 
     summary = scan_repository()
@@ -133,7 +133,7 @@ def main() -> int:
         game_info = summary["games"][game]
         print(f"\n[{game}] {game_info['dump_count']} dump folder(s):")
         if not game_info["dumps"]:
-            print(f"  - (Empty — drop your {game} dumps into {REPO_ROOT / game})")
+            print(f"  - (Empty - drop your {game} dumps into {REPO_ROOT / game})")
         for d in game_info["dumps"]:
             ready_tag = "READY FOR BLENDER" if d["blender_import_ready"] else "PARTIAL/TEXTURES"
             print(

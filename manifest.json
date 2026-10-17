@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "repository": "abdulrehmankhan5466-ui/GIMI-Model-Dumps",
+  "generated_at": "2026-10-17T05:21:51.550012+00:00",
+  "games": {
+    "Genshin": {
+      "folder": "Genshin",
+      "dump_count": 0,
+      "dumps": []
+    },
+    "Wuwa": {
+      "folder": "Wuwa",
+      "dump_count": 0,
+      "dumps": []
+    },
+    "NTE": {
+      "folder": "NTE",
+      "dump_count": 0,
+      "dumps": []
+    }
+  },
+  "total_dumps": 0,
+  "oversized_warnings": []
+}

@@ -1,0 +1,25 @@
+# Normalize text files
+*.md text eol=lf
+*.json text eol=lf
+*.ini text eol=lf
+*.txt text eol=lf
+*.py text eol=lf
+*.bat text eol=crlf
+
+# Binary 3D / GIMI / Texture files
+*.vb binary
+*.ib binary
+*.buf binary
+*.dds binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.tga binary
+*.blend binary
+*.fbx binary
+*.glb binary
+*.gltf text eol=lf
+*.obj text eol=lf
+*.mtl text eol=lf
+*.zip binary
+*.7z binary

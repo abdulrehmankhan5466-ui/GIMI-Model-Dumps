@@ -1,0 +1,18 @@
+# Blender auto-save backups
+*.blend1
+*.blend2
+*.blend3
+
+# OS & temporary files
+Thumbs.db
+Desktop.ini
+.DS_Store
+*.tmp
+*.bak
+*.log
+
+# Python cache
+__pycache__/
+*.py[cod]
+.venv/
+venv/
